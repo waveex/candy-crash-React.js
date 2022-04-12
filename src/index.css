@@ -1,15 +1,39 @@
+body {
+  background: url(./images/candy-crush-bg.jpg) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
 .app {
   display: flex;
   padding: 30px;
-
+  justify-content: center;
+  align-items: center;
+height: 100vh;
 }
 .game{
   width: 560px;
   height: 560px;
   display: flex;
   flex-wrap: wrap;
+  background: #8c8cebb3;
+  padding: 10px;
+  border-radius: 20px;
 }
 .game img {
   width: 70px;
   height: 70px;
+}
+.score-board {
+  position: absolute;
+  top: 30px;
+  background: #f2abff42;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: #fef8c6;
+  font-family: sans-serif;
 }
